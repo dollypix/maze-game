@@ -204,7 +204,7 @@ def main():
         
         collision = False
 
-        for wallRect in maze.wallsRects:
+        for wallRect in maze.wallRects:
             if monkeyRect.colliderect(wallRect):
                 collision = True
 
@@ -269,5 +269,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
